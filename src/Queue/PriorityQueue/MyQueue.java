@@ -7,6 +7,7 @@ public class MyQueue {
     MyQueue(){
         front=null;
         rear=null;
+        size=0;
     }
      public boolean isEmpty(){
         boolean response=false;
